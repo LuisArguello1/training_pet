@@ -1,0 +1,6 @@
+#Hacer que git ignore estos directorios
+dataset/
+
+dog_weight_dataset/
+
+venv/
