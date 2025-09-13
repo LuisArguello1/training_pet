@@ -87,7 +87,7 @@ git checkout main
 git pull origin main
 git checkout -b nombre-de-la-rama
 ```
-Ejemplo: `interfaz-villavicencio`, `backend-santiago`
+Ejemplo: `villavicencio`, `guevara`
 
 **Trabajar en la rama creada**
 - Realizar cambios en los archivos.
@@ -95,18 +95,19 @@ Ejemplo: `interfaz-villavicencio`, `backend-santiago`
   ```bash
   git add .
   git commit -m "Descripción de los cambios"
+  git push origin nombre-de-la-rama
   ```
 
 **Importante**
-- Crear un Pull Request en GitHub para fusionar la rama con `main`.
+- Crear un Pull Request en GitHub para fusionar la rama con `master`.
 - El líder revisa y aprueba el Pull Request.
 
 **Actualizar la rama local antes de seguir trabajando**
 ```bash
 git checkout main
-git pull origin main
+git pull origin master
 git checkout nombre-de-la-rama
-git merge main
+git merge master
 ```
 
 ---
